@@ -1,0 +1,11 @@
+{
+  "info": {
+    "name": "TOD Jira Service Desk Api",
+    "version": 1.0
+  },
+
+  "configuration": {
+    "port": 4500,
+    "secure": false
+  }
+}

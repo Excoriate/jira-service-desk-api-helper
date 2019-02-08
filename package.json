@@ -1,0 +1,32 @@
+{
+  "name": "tod-api-jira-servicedesk",
+  "version": "1.0.0",
+  "description": "Custom jira api built by e-busines",
+  "scripts": {
+    "start": "node core/server_api_jira.js"
+  },
+  "engines": {
+    "node": "6.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://maniacsharper@bitbucket.org/team_ops_abcdin/tod-mdw-api-jiraservicesdesk.git"
+  },
+  "keywords": [
+    "TOD-JSD"
+  ],
+  "author": "Alex Torres",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/team_ops_abcdin/tod-mdw-api-jiraservicesdesk#readme",
+  "dependencies": {
+    "express": "latest",
+    "morgan": "latest",
+    "body-parser": "latest",
+    "slackbots": "latest",
+    "node-cache": "latest",
+    "node-fetch": "latest",
+    "request": "latest",
+    "unirest": "latest",
+    "requestify": "latest"
+  }
+}

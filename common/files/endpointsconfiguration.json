@@ -1,0 +1,25 @@
+{
+
+  "jiraservicedesk":{
+
+    "endpoints": {
+      "slabyticket": "https://ops-digitales-abcdin.atlassian.net/rest/servicedeskapi/request/{ticketid}/sla/",
+
+      "ticketbyid": "https://ops-digitales-abcdin.atlassian.net/rest/servicedeskapi/request/{ticketid}"
+    },
+
+    "connection": {
+
+      "authorization":{
+        "user": "jose.torres@abcdin.cl",
+        "password": "conFluencia_ebuSin33s_2016"
+      },
+
+      "token": "Basic am9zZS50b3JyZXNAYWJjZGluLmNsOmNvbkZsdWVuY2lhX2VidVNpbjMzc18yMDE2"
+    }
+
+  }
+
+
+
+}
